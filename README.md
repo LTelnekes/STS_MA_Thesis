@@ -1,2 +1,89 @@
-# Thesis
-All data for my MA Thesis
+# Steal the Vote: The Metaphorical Construction of Disinformation and Conspiracy Theories in Donald Trump's Tweets before and during the Capitol Riots
+All data and necessary information for my MA Thesis in Digital Humanities at the University of Groningen
+
+### Corpus Description
+This corpus contains several datasets consisting of tweets posted by Donald Trump’s personal Twitter account, @realDonaldTrump. They are built upon the merging of existing datasets: 
+
+| Source      | License                                  |
+| ------------- | -------------------------------------------- |
+| [Kaggle Dataset by user 'codebreaker619'](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)  | Data files © Original |
+| [The Trump Twitter Archive](https://www.thetrumparchive.com/) | Data is freely usable as the creator aims to “provide a public resource” |
+| [Kaggle Dataset by user 'headsortails'](https://www.kaggle.com/datasets/headsortails/trump-twitter-archive)  | CC0: Public Domain | 
+
+### File Format and Content
+- `.pdf` Portable document format; includes the Data Management Plan for this project
+- `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research
+- `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the folders `trump_tweets_txts` and `trump_tweets_keywords_txts`
+- `.ipynb` Jupyter Notebook used for merging, cleaning, and saving the data for further analysis. 
+
+### Text Selection Criteria
+in progress of writing
+
+### Data Collection Process
+in progress of writing
+
+### Cleaning and Preprocessing
+in progress of writing
+
+### Column overview
+
+**`final_merged_trump_tweets.csv`**
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | The tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+
+
+**`final_merged_trump_tweets_clean.csv`**
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | The tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+| text_clean  | the cleaned content of the tweet  |
+
+**`filtered_trump_tweets.csv`**
+
+Filtered to dates of interest for this research, namely November 3rd, 2020 - January 6th, 2021
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | The tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+| text_clean  | the cleaned content of the tweet  |
+
+
+**`filtered_trump_tweets_keywords.csv`**
+
+
+Filtered to dates, namely November 3rd, 2020 - January 6th, 2021 and keywords of interest to my research
+
+Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 'flip', 'glitch', 'michigan', 'georgia', 'undermine', 'stop', 'collapse', 'ballot', 'conspiracy', 'lie', 'hoax', 'power', 'reject', 'certify', 'fbi', 'legal', 'illegal', 'overturn', 'biden', 'trump', 'integrity', 'justice', 'win', 'win', 'poll', 'evidence', 'rig'*
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | The tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+| text_clean  | the cleaned content of the tweet  |
+| lemmas  | lemmatization of the cleaned content of the tweet | 
