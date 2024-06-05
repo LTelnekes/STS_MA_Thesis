@@ -31,7 +31,7 @@ in progress of writing
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
-| id          | The tweet id |
+| id          | the tweet id |
 | text  | the original content of the tweet    |
 | is_retweet     | true or false: is the tweet a retweet? |
 | is_deleted | true or false: has the tweet been deleted?                |
@@ -44,7 +44,7 @@ in progress of writing
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
-| id          | The tweet id |
+| id          | the tweet id |
 | text  | the original content of the tweet    |
 | is_retweet     | true or false: is the tweet a retweet? |
 | is_deleted | true or false: has the tweet been deleted?                |
@@ -59,7 +59,7 @@ Filtered to dates of interest for this research, namely November 3rd, 2020 - Jan
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
-| id          | The tweet id |
+| id          | the tweet id |
 | text  | the original content of the tweet    |
 | is_retweet     | true or false: is the tweet a retweet? |
 | is_deleted | true or false: has the tweet been deleted?                |
@@ -78,7 +78,7 @@ Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
-| id          | The tweet id |
+| id          | the tweet id |
 | text  | the original content of the tweet    |
 | is_retweet     | true or false: is the tweet a retweet? |
 | is_deleted | true or false: has the tweet been deleted?                |
