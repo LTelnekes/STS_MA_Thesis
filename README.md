@@ -74,7 +74,7 @@ Filtered to dates of interest for this research, namely November 3rd, 2020 - Jan
 
 Filtered to dates, namely November 3rd, 2020 - January 6th, 2021 and keywords of interest to my research
 
-Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 'flip', 'glitch', 'michigan', 'georgia', 'undermine', 'stop', 'collapse', 'ballot', 'conspiracy', 'lie', 'hoax', 'power', 'reject', 'certify', 'fbi', 'legal', 'illegal', 'overturn', 'biden', 'trump', 'integrity', 'justice', 'win', 'win', 'poll', 'evidence', 'rig'*
+Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 'flip', 'glitch', 'michigan', 'georgia', 'undermine', 'stop', 'collapse', 'ballot', 'conspiracy', 'lie', 'hoax', 'power', 'reject', 'certify', 'fbi', 'legal', 'illegal', 'overturn', 'biden', 'trump', 'integrity', 'justice', 'win', 'win', 'poll', 'evidence', 'rig', 'landslide', 'fake', 'verify'*
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
