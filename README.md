@@ -72,13 +72,58 @@ Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 
 | retweets   | amount of retwets the tweet has  |
 | date  | date of the tweet  |
 | text_clean  | the cleaned content of the tweet  |
-| lemmas  | lemmatization of the cleaned content of the tweet | 
+| doc  | The tweet as processed by using spaCy | 
+| lemmas  | lemmatization of the tweet | 
 
-**4.candidate_metaphor_trump_tweets.csv`**
+**`4.candidate_metaphor_trump_tweets.csv`**
+Filtered to the rows that include a candidate metaphor keyword. 
 
-**5.context_candidate_metaphor_trump_tweets.csv`**
+keywords_metaphors: *"abuse", "attack", "battle", "betray", "chapter", "cesspool", "crooked", "cure", "defend", "destroy", "drench", "dump", "fight", "flood", "game", "garbage", "goldmine", "harvesting", "hill", "hustle", "inundate", "kill", "landslide", "lose", "play", "plague", "pour", "run", "race", "save", "shatter", "sick", "silent", "sleepy", "spearhead", "steal", "stuff", "tank", "thin", "toss", "turtle", "undermine", "victory", "war", "witch"*
+    
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | the tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+| text_clean  | the cleaned content of the tweet  |
+| doc  | The tweet as processed by using spaCy | 
+| lemmas  | lemmatization of the tweet | 
+| contains_metaphor  | returns true for matching keywords | 
 
-**6.candidate_metaphor_trump_tweets.csv`**
+**`5.context_candidate_metaphor_trump_tweets.csv`**
 
+Includes the necessary meta data, and a row including the context around the metaphor for quicker human analysis.
 
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | the tweet id |
+| date  | date of the tweet  |
+| text  | the original content of the tweet    |
+| context  | words surrounding metaphor keyword, up to 8 words  |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| lemmas  | lemmatization of the tweet | 
+
+**`6.metaphor_trump_tweets.csv`**
+
+All rows now include an identified metaphor.
+
+| Variable      | Description                                  |
+| ------------- | -------------------------------------------- |
+| id          | the tweet id |
+| text  | the original content of the tweet    |
+| is_retweet     | true or false: is the tweet a retweet? |
+| is_deleted | true or false: has the tweet been deleted?                |
+| favorites  | amount of favorites the tweet has |
+| retweets   | amount of retwets the tweet has  |
+| date  | date of the tweet  |
+| text_clean  | the cleaned content of the tweet  |
+| doc  | The tweet as processed by using spaCy | 
+| lemmas  | lemmatization of the tweet | 
 
