@@ -1,4 +1,4 @@
-# Steal the Vote: The Metaphorical Construction of Disinformation and Conspiracy Theories in Donald Trump's Tweets before and during the Capitol Riots
+# Stop the Steal: The Metaphorical Construction of Disinformation and Conspiracy Theories in Donald Trump's Tweets before and during the Capitol Riots
 All data and necessary information for my MA Thesis in Digital Humanities at the University of Groningen
 
 ### Corpus Description
@@ -12,9 +12,9 @@ This corpus contains several datasets consisting of tweets posted by Donald Trum
 
 ### File Format and Content
 - `.pdf` Portable document format; includes the Data Management Plan for this project
-- `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research
+- `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research. The csv files are stored in the folder 'datasets`
 - `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the folders `trump_tweets_txts` and `trump_tweets_keywords_txts`
-- `.ipynb` Jupyter Notebook used for merging, cleaning, and saving the data for further analysis. 
+- `.ipynb` Jupyter Notebooks used for merging, cleaning, and saving the data for further analysis. Also used for keyword and context-extraction. 
 
 ### Text Selection Criteria
 in progress of writing
@@ -27,20 +27,7 @@ in progress of writing
 
 ### Column overview
 
-**`final_merged_trump_tweets.csv`**
-
-| Variable      | Description                                  |
-| ------------- | -------------------------------------------- |
-| id          | the tweet id |
-| text  | the original content of the tweet    |
-| is_retweet     | true or false: is the tweet a retweet? |
-| is_deleted | true or false: has the tweet been deleted?                |
-| favorites  | amount of favorites the tweet has |
-| retweets   | amount of retwets the tweet has  |
-| date  | date of the tweet  |
-
-
-**`final_merged_trump_tweets_clean.csv`**
+**`1.final_merged_trump_tweets_clean.csv`**
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
@@ -53,7 +40,7 @@ in progress of writing
 | date  | date of the tweet  |
 | text_clean  | the cleaned content of the tweet  |
 
-**`filtered_trump_tweets.csv`**
+**`2.filtered_trump_tweets.csv`**
 
 Filtered to dates of interest for this research, namely November 3rd, 2020 - January 6th, 2021
 
@@ -69,8 +56,7 @@ Filtered to dates of interest for this research, namely November 3rd, 2020 - Jan
 | text_clean  | the cleaned content of the tweet  |
 
 
-**`filtered_trump_tweets_keywords.csv`**
-
+**`3.filtered_trump_tweets_keywords.csv`**
 
 Filtered to dates, namely November 3rd, 2020 - January 6th, 2021 and keywords of interest to my research
 
@@ -87,3 +73,12 @@ Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 
 | date  | date of the tweet  |
 | text_clean  | the cleaned content of the tweet  |
 | lemmas  | lemmatization of the cleaned content of the tweet | 
+
+**4.candidate_metaphor_trump_tweets.csv`**
+
+**5.context_candidate_metaphor_trump_tweets.csv`**
+
+**6.candidate_metaphor_trump_tweets.csv`**
+
+
+
