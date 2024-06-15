@@ -1,5 +1,5 @@
 # Stop the Steal: The Metaphorical Construction of Disinformation and Conspiracy Theories in Donald Trump's Tweets before and during the Capitol Riots
-All data and necessary information for my MA Thesis in Digital Humanities at the University of Groningen
+All data and necessary information for my MA Thesis in Digital Humanities at the University of Groningen. This also included data for further study. 
 
 ### Corpus Description
 This corpus contains several datasets consisting of tweets posted by Donald Trump’s personal Twitter account, @realDonaldTrump. They are built upon the merging of existing datasets: 
@@ -92,7 +92,6 @@ keywords_metaphors: *"abuse", "attack", "battle", "betray", "chapter", "cesspool
 | text_clean  | the cleaned content of the tweet  |
 | doc  | The tweet as processed by using spaCy | 
 | lemmas  | lemmatization of the tweet | 
-| contains_metaphor  | returns true for matching keywords | 
 
 **`5.context_candidate_metaphor_trump_tweets.csv`**
 
@@ -110,7 +109,7 @@ Includes the necessary meta data, and a row including the context around the met
 | retweets   | amount of retwets the tweet has  |
 | lemmas  | lemmatization of the tweet | 
 
-**`6.metaphor_trump_tweets.csv`**
+**`6.all_metaphor_trump_tweets.csv`**
 
 All rows now include an identified metaphor.
 
