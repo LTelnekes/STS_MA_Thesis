@@ -10,10 +10,12 @@ This corpus contains several datasets consisting of tweets posted by Donald Trum
 | [The Trump Twitter Archive](https://www.thetrumparchive.com/) | Data is freely usable as the creator aims to “provide a public resource” |
 
 ### File Format and Content
-- `.pdf` Portable document format; includes the Data Management Plan for this project
-- `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research. The csv files are stored in the folder 'datasets`
-- `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the folders `trump_tweets_txts` and `trump_tweets_keywords_txts`
-- `.ipynb` Jupyter Notebooks used for merging, cleaning, and saving the data for further analysis. Also used for keyword and context-extraction.
+- `.ipynb` Jupyter Notebooks used for merging, cleaning, and saving the data for further analysis. Also used for keyword and context-extraction. The notebooks are stored in the `Notebooks` folder.
+- `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research. The orignal datasets are stored in the folder `Original_Data` and the
+- datasets merged, cleaned, and filtered for this research are in the folder `STS_Datasets`.
+- `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the `trump_tweets_txts` folder.
+- - `.pdf` Portable document format; includes the Data Management Plan for this project
+
 
 ### Text Selection Criteria
 As this thesis is concerned with Trump's rhetoric after the 2020 election until the Capitol Riots, the first criteria was making sure our data would display this timeframe. First, I downloaded all his tweets and merged the existing datasets together to make sure no tweets were missed by one of them. Then, I could select the timespan of interested namely November 3rd, 2020 until January 6th, 2021. Furthermore, this research is interested in Trump's twitter account @realDonaldTrump The decision to focus on his personal Twitter account instead of the official US President account (@POTUS) stems from how he uses both accounts. More information on this can be found in my thesis. 
