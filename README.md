@@ -8,16 +8,12 @@ This corpus contains several datasets consisting of tweets posted by Donald Trum
 | ------------- | -------------------------------------------- |
 | [Kaggle Dataset by user 'codebreaker619'](https://www.kaggle.com/datasets/codebreaker619/donald-trump-tweets-dataset)  | Data files © Original |
 | [The Trump Twitter Archive](https://www.thetrumparchive.com/) | Data is freely usable as the creator aims to “provide a public resource” |
-| [Kaggle Dataset by user 'headsortails'](https://www.kaggle.com/datasets/headsortails/trump-twitter-archive)  | CC0: Public Domain | 
 
 ### File Format and Content
 - `.pdf` Portable document format; includes the Data Management Plan for this project
 - `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research. The csv files are stored in the folder 'datasets`
 - `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the folders `trump_tweets_txts` and `trump_tweets_keywords_txts`
 - `.ipynb` Jupyter Notebooks used for merging, cleaning, and saving the data for further analysis. Also used for keyword and context-extraction. 
-
-### Text Selection Criteria
-in progress of writing
 
 ### Data Collection Process
 in progress of writing
@@ -27,7 +23,7 @@ in progress of writing
 
 ### Column overview
 
-**`1.final_merged_trump_tweets_clean.csv`**
+**`1.merged_trump_tweets_clean.csv`**
 
 | Variable      | Description                                  |
 | ------------- | -------------------------------------------- |
@@ -75,7 +71,7 @@ Keywords: *'election', 'antifa', 'dominion', 'vote', 'fraud', 'steal', 'steal', 
 | doc  | The tweet as processed by using spaCy | 
 | lemmas  | lemmatization of the tweet | 
 
-**`4.candidate_metaphor_trump_tweets.csv`**
+**`4.all_candidate_metaphor_trump_tweets.csv`**
 Filtered to the rows that include a candidate metaphor keyword. 
 
 keywords_metaphors: *"abuse", "attack", "battle", "betray", "chapter", "cesspool", "crooked", "cure", "defend", "destroy", "drench", "dump", "fight", "flood", "game", "garbage", "goldmine", "harvesting", "hill", "hustle", "inundate", "kill", "landslide", "lose", "play", "plague", "pour", "run", "race", "save", "shatter", "sick", "silent", "sleepy", "spearhead", "steal", "stuff", "tank", "thin", "toss", "turtle", "undermine", "victory", "war", "witch"*
@@ -93,7 +89,7 @@ keywords_metaphors: *"abuse", "attack", "battle", "betray", "chapter", "cesspool
 | doc  | The tweet as processed by using spaCy | 
 | lemmas  | lemmatization of the tweet | 
 
-**`5.context_candidate_metaphor_trump_tweets.csv`**
+**`5.all_context_candidate_metaphor_trump_tweets.csv`**
 
 Includes the necessary meta data, and a row including the context around the metaphor for quicker human analysis.
 
