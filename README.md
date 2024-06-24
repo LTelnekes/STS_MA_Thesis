@@ -14,7 +14,7 @@ This corpus contains several datasets consisting of tweets posted by Donald Trum
 - `.csv` Comma-separated values; includes (meta)data of Trump's tweets of interest to my research. The orignal datasets are stored in the folder `Original_Data` and the
 - datasets merged, cleaned, and filtered for this research are in the folder `STS_Datasets`.
 - `.txt` text-files; includes the cleaned tweets of interest to my research. The txt-files are stores in the `trump_tweets_txts` folder.
-- - `.pdf` Portable document format; includes the Data Management Plan for this project
+- `.pdf` Portable document format; includes the Data Management Plan for this project
 
 
 ### Text Selection Criteria
